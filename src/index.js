@@ -32,7 +32,7 @@ class App extends Component {
         <div className="inner-div">
           <div>
             {' '}
-            <img src={country.flag} alt={country.name} />{' '}
+            <img loading="lazy" src={country.flag} alt={country.name} />{' '}
           </div>
           <div className="outer-flex">
             <div className="flex"><p>Name: </p><p>{country.name}</p></div>
